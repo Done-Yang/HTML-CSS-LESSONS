@@ -1,0 +1,36 @@
+/* .fname1 {
+    background-color: yellow;
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50 60;
+    padding: 50 60;
+
+}
+.fname1 {
+    background: url(./image/cat.jpg);
+    background-size: 50%;
+    background-attachment: fixed;
+    background-position: left;
+    margin: 50%;
+
+
+}
+.image {
+    height: auto;
+} */
+.link a {
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 50px;
+
+
+}
+.link a:hover{
+    background-color: brown;
+    color: rgb(208, 178, 208);
+}

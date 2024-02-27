@@ -1,0 +1,62 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+
+
+h1 {
+    color: blueviolet;
+    font-size: 200% ;
+ 
+}
+/* .fline {
+    background-color: brown;
+    border: 10px solid blue;
+    border-radius: 1000px;
+    height: 10%;
+    width: 10vh;
+
+
+} */ 
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.fline {
+    background-color: yellow;
+    height: 50vh;
+    width: 100%;
+    margin: 50px;
+
+
+}
+
+.fline2 {
+    background-color: greenyellow;
+    height: 50vh;
+    width: 100%;
+    padding: 50px;
+}
+.fline3 {
+    background-color: rgba(226, 52, 218, 0.671);
+    height: 50vh;
+    width: 100%;
+}
+.fline, .fline2, .fline3, .new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+}
+.new {
+    background-color: rgb(67, 6, 219);
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+
+}
+.hower {
+    
+}

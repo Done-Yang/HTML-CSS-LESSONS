@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    padding: 2rem 15rem;
+    justify-content: space-between;
+} 
+
+.nav_manu {
+    display: flex;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+}
+
+.nav_item{
+    padding: 0 2rem;
+}
+
+.header {
+    background-image: url(/img/pink.jpeg);
+    background-size: cover;
+}
+
+.nav_item  a {
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.nav_logo {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home_container {
+    margin-top: 14rem;
+    color: #fff;
+    margin-left:18rem ;
+}
+
+.home_container h1 {
+    font-size: 5rem;
+}
+
+.home_container p {
+    font-size: 25px;
+}
+
+.home_container a {
+    border: solid 1px rgb(244, 237, 237);
+    background-color: rgb(158, 73, 24);
+    border-radius: 5px;
+    padding: 15px 20px ;
+    margin-top: 60px;
+}
+
+.home_container a:hover {
+    color: rgb(197, 168, 168);
+}
+
+.nav_item:hover {
+    border: #fff solid 2px;
+    background-color: rgb(172, 109, 86);
+    font-family: 'Franklin Gothic Medium';
+}
+
+.box1 {
+    width: 100%;
+    height: 80vh;
+}
+
+.a {
+    background-color: aqua;
+}
+
+.b {
+    background-color: blueviolet;
+}
+
+.c {
+    background-color: chartreuse;
+}
+
+.tiltle-box {
+    text-align: center;
+}

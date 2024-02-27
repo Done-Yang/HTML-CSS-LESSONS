@@ -1,0 +1,36 @@
+
+body {
+background-repeat: no-repeat;
+background-image: url("image/111/images.jpg") ;
+background-attachment: fixed;
+background-position:bottom;
+background-size: 40%;
+height: 10px;
+text-align: center;
+
+}
+h2{ 
+  text-align: center;
+  color: aqua;
+ 
+}
+div{
+  font-family: serif;
+}
+p.motivation{
+color:#fd79a8;
+border: tomato;
+}
+a:link{
+  color:blue
+}
+a:hover{
+  color:rgb(66, 58, 61)
+}
+a:visited{
+ color: black
+}
+
+a:active{
+  color:rgb(255, 85, 6)
+}

@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Monoton&family=Pacifico&family=Press+Start+2P&family=Vampiro+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.head {
+    display: flex;
+    font-size: 25px ;
+    background: #d2d2d2;
+    width: 43em;
+    position: fixed;
+}
+
+.head #choice{
+    padding-right: 3.2em;
+    padding-left: 10px;
+}
+
+.head #item_home{
+    margin-right: 30px;
+    color: #4380b1;
+}
+
+
+.item:hover{
+    border-radius: 5px;
+    background: #d7d9e6;
+    border: solid 2px #a6b2ec;
+}
+
+
+.item{
+    margin-right: 30px;
+}
+
+
+.head #item {
+    padding-right: 30px;
+    padding-left: 3.5em;
+}
+
+.cover{
+    display: flex;
+    margin-left: 250px;
+}
+
+.scroll_footer {
+    width: 14em;
+    margin-top: 28px;
+    padding-top: 20px;
+    position: fixed;
+    background: #e5e5e5;
+    height: 30em;
+}
+
+.scroll_footer a{
+    color: #4b5d67;
+}
+
+.scroll_footer #info{
+    color: #150050;
+    margin-top: 20px;
+}
+
+.cover_content {
+    margin: 40px 10px 0 250px;
+}
+
+.title {
+    width: 50em;
+}
+
+.title h1 {
+    text-align: center;
+    font-family: Iceland;
+    font-size: 40px;
+}
+
+.title p {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.card1 {
+    display: flex;
+}
+
+.java_card {
+    width: 15em;
+    margin-top: 30px;
+    background: #d2d2d2;
+    border-radius: 10px;
+    height: 25em;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.java_card img {
+    width: 14em;
+    margin-top: 10px;
+    height: 130px;
+    margin-left: 8px;
+}
+
+.java_card p {
+    margin: 10px;
+    padding-bottom: 4em;
+}
+
+.java_card #a {
+    margin-left: 10px;
+}
+
+
+.python_card {
+    width: 15em;
+    margin-top: 30px;
+    background: #d2d2d2;
+    border-radius: 10px;
+    height: 25em;
+    font-size: 15px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.python_card img {
+    width: 14em;
+    margin-top: 10px;
+    height: 130px;
+    margin-left: 8px;
+}
+
+.python_card p {
+    padding-bottom: 6.5em;
+    margin: 10px;
+}
+
+.python_card #a {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.javascript_card {
+    width: 15em;
+    margin-top: 30px;
+    background: #d2d2d2;
+    border-radius: 10px;
+    height: 25em;
+    font-size: 15px;
+    margin-left: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.javascript_card img {
+    width: 14em;
+    margin-top: 10px;
+    height: 130px;
+    margin-left: 8px;
+}
+
+.javascript_card p {
+
+    margin: 10px;
+}
+
+.javascript_card #a {
+    margin-left: 10px;
+}
+
+.card2 {
+    display: flex;
+}
+
+.c_card {
+    width: 15em;
+    margin-top: 30px;
+    background: #d2d2d2;
+    border-radius: 10px;
+    height: 25em;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.c_card img {
+    width: 14em;
+    margin-top: 10px;
+    height: 130px;
+    margin-left: 8px;
+}
+
+.c_card p {
+    padding-bottom: 2em;
+    margin: 10px;
+}
+
+.c_card #a {
+    margin-left: 10px;
+
+}
+
+.scala_card {
+    width: 15em;
+    margin-top: 30px;
+    background: #d2d2d2;
+    border-radius: 10px;
+    height: 25em;
+    font-size: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 30px;
+}
+
+.scala_card img {
+    width: 14em;
+    margin-top: 10px;
+    height: 130px;
+    margin-left: 8px;
+}
+
+.scala_card p {
+    margin: 10px;
+}
+
+.scala_card #a {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+.java {
+    width: 45em;
+    margin-top: 50px;
+}
+
+.java h1{
+    text-align: center;
+    font-family: Iceland;
+}
+
+.java img{
+    width: 20em;
+    height: 300px;
+    padding-right: 10px;
+}
+
+.java_1 {
+    display: flex;
+    margin: 30px 0 0 20px;
+}
+
+.java_1 p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+.java_1 a{
+    color: aqua;
+}
+
+.java_1 a:hover{
+    color: rgb(151, 241, 241);
+}
+
+.python {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 30px;
+}
+
+
+.python img{
+    width: 20em;
+    height:30em;
+    margin-top: 20px;
+
+}
+
+.python_1 h1{
+    margin: 30px 0 0 5em;
+    font-family: Iceland;
+}
+
+.python p{
+    font-size: 20px;
+    margin: 40px 0 0 20px;
+    width: 20em;
+}
+
+
+.javascript {
+    width: 45em;
+    margin-top: 20px;
+}
+
+.javascript h1{
+    margin-left: 3em;
+    font-family: Iceland;
+}
+
+.javascript img{
+    width: 20em;
+    height: 200px;
+    padding: 20px;
+    box-shadow: 0 4px 4px 0 black;
+}
+
+
+.javascript p{
+    font-size: 20px;
+    margin: 20px 10px 0 10px;
+}
+
+.javascript a{
+    font-size: 20px;
+    margin-left: 10px;
+    color: aqua;
+}
+
+.javascript a:hover{
+    color: rgb(162, 237, 237);
+}
+
+.c_programming {
+    width: 45em;
+    margin-top: 20px;
+    height: 30em;
+}
+
+.c_programming a{
+    color: aqua;
+    margin-left: 10px;
+}
+
+.c_programming a:hover{
+    color: rgb(162, 237, 237);
+}
+
+.c_programming h1{
+    margin-left: 7em;
+    font-family: Iceland;
+}
+
+.c_programming img{
+    width: 30em;
+    height: 15em;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding: 20px;
+    box-shadow: 0 4px 4px 0 black;
+}
+
+
+.c_programming p{
+    margin: 20px 20px 0 10px;
+    font-size: 20px;
+}
+
+
+.scala {
+    width: 45em;
+    height: 30rem;
+    margin-top: 20px
+}
+
+.scala h1{
+    margin-left: 5em;
+    font-family: Iceland;
+}
+
+
+.scala img{
+    width: 20em;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 4px 0 black;
+
+}
+
+.scala P{
+    font-size: 20px;
+    margin: 20px 10px 0 20px;
+}
+
+
+.the_footer{
+    height: 3em;
+}
+
+
+
+
+.footer {
+    display: flex;
+    font-size: 15px;
+    margin-left: 15em;
+    background: #150050;
+    color: #4b5d67;
+    padding-top: 10px;
+    height: 15em;
+}
+
+.footer_concept {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.concept_info{
+    margin-top: 30px;
+}
+
+
+.concept_info #p {
+    padding-bottom: 5px;
+    color: #4380b1;
+}
+
+.footer_source {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.footer_source #source_title {
+    padding-bottom: 20px;
+}
+
+.footer_source #a {
+    color: #4380b1;
+    margin-bottom: 5px;
+}
+
+.footer_source a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+

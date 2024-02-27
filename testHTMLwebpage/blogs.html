@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="{% static 'css/deshboard.css' %}">
+    <title>Blogs</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="box1_boxfoot">
+        <div class="box1">
+            <div class="name">
+                <a href="{% url 'home' %}"><h1>Blogs</h1></a>
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="search">
+            </div>
+            <!-- <div class="fvrite">
+                <a href=""><i class="fa-solid fa-heart"></i> Favorite</a>
+            </div>  -->
+            <div class="image">
+                <a href=""><img src="#" alt="prof"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="home_screen">
+        <div class="box2__1">
+            <div class="image">
+                <a href="#" class="second_image">
+                    <img src="" alt="profile">
+                    <p id="acount_name">name lname</p>
+                </a>
+            </div>
+            {% for c in categories %}
+            <div class="news b2_2">
+                <a href="#">{{c.categoryName}}</a>
+            </div>
+            {% endfor %}
+        </div>
+        {% block content %} 
+
+        {% endblock %}
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer_first">
+            <h1>Blogs</h1>
+            <div class="first_contend">
+                <h3 id="ct">Contect</h3>
+                <div class="wsa ic"><i class="fa-brands fa-square-whatsapp" id="wsa"></i><p id="p">020 78671726</p></div><br>
+                <div class="gm ic"><i class="fa-solid fa-envelope" id="gm"></i><p id="p">ahua92351223@gmail.com</p></div><br>
+                <div class="c ic"><i class="fa-solid fa-phone" id="c"></i><p id="p">020 92351223</p></div>
+                <h3 id="flu">Folow us</h3>
+                <div class="flu_icon">
+                    <a href="https://www.facebook.com/ddone.yang"><i class="fa-brands fa-facebook" id="fb"></i></a>
+                    <a href="https://www.instagram.com/yyydone/"><i class="fa-brands fa-square-instagram" id="istg"></i></a>
+                    <a href="https://www.tiktok.com/@ddoneyang?is_from_webapp=1&sender_device=pc"><i class="fa-brands fa-tiktok" id="tt"></i></a>
+                    <a href="https://twitter.com/Done78671726"><i class="fa-brands fa-twitter" id="twt"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_second fff">
+            <h3 id="h3">About Us</h3><br>
+            <div class="second_contend ff">
+                <a href="#" id="a">iATER</a><br><br>
+                <a href="#" id="a">Lao Korea Collage (LKC)</a>
+            </div>
+        </div> 
+        <div class="footer_third fff">
+            <h3 id="h3">Categories</h3><br>
+            <div class="third_contend ff">
+                {% for categ in categories %}
+                <a href="#" id="a">{{categ.categoryName}}<span>(0)</span></a><br><hr>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="footer_fourth">
+            <a href="#" id="fourth_login">Log in</a>
+            <p>If you still not have an acount your can <a href="" id="fourth_a">creat acount</a></p>
+        </div>
+    </div>
+</body>
+</html>   

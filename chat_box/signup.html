@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="signup.css">
+    <title>Signup</title>
+</head>
+<body>
+    <div class="box_login">
+        <form method="POST" action="" class="form_crop">
+            <div class="tag username">
+                <p>User Name</p>
+                <input type="text" name="username" class="in" required>
+            </div>
+            <div class="tag phonenumber">
+                <p>Phone Number</p> 
+                <input type="text" name="phonenumber" class="in" required>
+            </div>
+            <div class="tag email">
+                <p>E-mail</p>
+                <input type="email" name="email" class="in" required>
+                
+            </div>
+            <div class="tag Password">
+                <p>Password</p>
+                <input type="password" name="password" class="in" required>
+            </div>
+            <div class="tag repassword">
+                <p>Confirm Password</p>
+                <input type="password" name="repassword" required>
+            </div>
+            <button type="submit" class="login ">Sign Up </button>
+        </from>
+        <div class="donot ">
+            <p>Already have an any account <a href="{% url 'login_page' %}" style="color: rgba(39, 68, 201, 0.805);">login</a></p>
+        </div>
+    </div>
+</body>
+</html>

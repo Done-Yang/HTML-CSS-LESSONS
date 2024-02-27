@@ -1,0 +1,46 @@
+.box2 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 900vh;
+}
+.box1 {
+    background-color: rgb(74, 123, 123);
+    width: 35%;
+    height: 95vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+    margin: auto;
+    border-radius: 30px;
+
+
+}
+.box2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.buttom {
+    text-decoration: none;
+    background-color: rgb(108, 175, 175);
+    padding: 15px 18px;
+    border-radius: 100px;
+    color: rgb(11, 109, 78);
+
+
+}
+.buttom:hover{
+    background-color: aqua;
+    color: rgb(40, 181, 40);
+}
+.box2 h1{
+    font-size: 20px;
+
+}
+.box-icon a{
+    color: rgb(30, 30, 31);
+    padding: 0px 3px;
+    font-size: 20px;
+}
+.box-icon a:hover{
+    color: aqua;
+}

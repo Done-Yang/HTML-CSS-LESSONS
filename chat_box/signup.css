@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Iceland&family=Indie+Flower&family=Pacifico&family=Qwitcher+Grypen&family=Rubik&family=Rubik+Maze&family=Shadows+Into+Light&display=swap');
+body {
+  background-color: rgb(235, 235, 235);
+}
+.box_login {
+  width: 50%;
+  height: 97vh;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: Rubik;
+  font-size: 18px;
+}
+.form_crop {
+  padding: 30px;
+}
+.tag p {
+  margin-top: 7px;
+}
+.tag input{
+  border: none;
+  outline: none;
+  width: 100%;
+  border-bottom: rgb(131, 131, 131) solid 1px;
+}
+.form_crop button{
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  float: right;
+  background-color: rgba(51, 88, 255, 0.805);
+  font-size: 18px;
+  border: none;
+}
+.form_crop button:hover{
+  background-color: rgba(39, 68, 201, 0.805);
+}
+.donot {
+  margin-top: 70px;
+  text-align: center;
+}
+

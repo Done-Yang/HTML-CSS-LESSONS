@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  width: 100%;
+  background-image: linear-gradient(to top, rgba(0,0,0,0.5)40%, rgba(0,0,0,0.5)40%), url("image/111/images.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  cover;
+  height: 100vh;
+}
+.navbar{ 
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+.logo{
+  color: orange;
+  font-size: 35px;
+  font-family: Arial;
+  float: left;
+  padding-top: 10px;
+
+}
+.manu{
+  width: 100px;
+  float: left;
+  height: 70px;
+}
+ul{
+  float:left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;  
+}
+ul li a{
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.3s ease-in-out;
+}
+ul li a:hover{
+  color: blueviolet;
+}
+.search{
+  border: 2px solid ;
+  width: 217px;
+  height: 20px;
+  float: left;
+  margin-left: 270px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  border: 1px solid;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+}
+.btn:focus{
+  outline: none;
+}
+.srch:focus{
+  outline: none;
+}
+.content{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color:white;
+  position: relative;
+}
+.content .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family: Arial;
+  word-spacing: 1px;
+  line-height: 20px;
+}
+.content h1{
+  font-family: 'Time New Romen';
+  font-size: 40px;
+  letter-spacing: 2px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+
+}
+.content .cn{
+  width: 100px;
+  height: 40px;
+  border: 1px solid purple;
+  background: rgb(76, 241, 10);
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.content .cn:hover{
+    color: rgb(255, 16, 195);
+    background-color: white;
+}
+.content .cn a{
+  text-decoration: none;
+  color: black;
+  transition: 2s ease;
+}
+.content span{
+  color: #ff7200;
+  font-size: 40px;
+}
+form{
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(to top, rgba(0,0,0,0,8)50%, rgba(0,0,0,0,8)50% );
+  position: absolute;
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+
+}
+.form{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff7200;
+  background-color: #fff;
+  margin: 2px;
+  padding: 8px;
+
+}
+.form input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #ff7200;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}

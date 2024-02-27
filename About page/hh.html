@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  Initial Displacement:
+  <input type="number" id="x" name="x">
+  <br> Initial Velocity:
+  <input type="number" id="v" name="v">
+  <br> Acceleration:
+  <input type="number" id="a" name="a">
+  <br> Time Passed:
+  <input type="number" id="t" name="t">
+  <br>
+  <input type="button" onclick="calc('x','v','a','t')"     value="Submit">
+  <p id="demo">here</p>
+  </body>
+  <script>
+  function calc(x, v, a, t) {
+   var Displace = parseInt(document.getElementById(x).value)
+   var Velocity = parseInt(document.getElementById(v).value)
+   var Acceleration = parseInt(document.getElementById(a).value)
+   var Time = parseInt(document.getElementById(t).value)
+   var calculations = Displace + (Velocity * Acceleration) + ((1 / 2) * Time * Acceleration * Time);
+   document.getElementById("demo").innerHTML = calculations
+  }
+
+ </script>
+</body>
+</html>

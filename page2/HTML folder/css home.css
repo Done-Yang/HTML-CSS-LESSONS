@@ -1,0 +1,38 @@
+* {
+    background-color: rgb(155, 186, 176);
+}
+
+
+.all h1{
+    text-align: center;
+    color: aqua;
+    background: linear-gradient(rgb(79, 23, 201), rgb(231, 13, 49));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.all .border {
+    width: 10%;
+    height: 10%;
+
+
+}
+.image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+.sumit {
+    border: 2px solid black;
+    border-radius: 30%;
+    width: 5%;
+    text-align: center;
+    height: 40px;
+
+}
+.h {
+    text-align: center;
+    color: blue;
+
+}
+

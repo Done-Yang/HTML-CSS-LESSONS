@@ -1,0 +1,39 @@
+.div {
+    display: flex;
+}
+
+.box {
+    width: 100%;
+    height: 200px;
+}
+
+.a {
+    background-color: aqua;
+}
+
+.b {
+    background-color: blue;
+}
+
+.c {
+    background-color: blueviolet;
+}
+
+@media screen and (min-width: 400px) {
+    .div{
+        flex-direction: row;
+    }   
+}
+
+@media screen and (min-width: 700px) {
+    .div{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+    .div{
+        flex-direction: row;
+    }
+}
